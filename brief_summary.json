@@ -1,0 +1,107 @@
+{
+    "ACCESS TOKEN BASE URL": "https://dtmsintegrations.kwixee.co.in/api/Integration/GetToken",
+    "API DATA BASE URL": "https://dtmsapi.kwixee.co.in/",
+    "TOKEN URL": "https://dtmsintegrations.kwixee.co.in/api/Integration/GetTokenconnect/token",
+    "AUTH TOKEN": "eyJhbGciOiJSUzI1NiIsImtpZCI6Ik9tMXpjSDlFbmUxQ21LSjkwVFU3MFEiLCJ0eXAiOiJhdCtqd3QifQ.eyJuYmYiOjE2ODUzMDg4NzcsImV4cCI6MTY4NTM2ODg3NywiaXNzIjoiaHR0cHM6Ly9kdG1zaWRzLmt3aXhlZS5jby5pbiIsImNsaWVudF9pZCI6ImV4dGVybmFsQ2xpZW50Iiwic3ViIjoiZHRtc2FkbWluQGdtYWlsLmNvbSIsImF1dGhfdGltZSI6MTY4NTMwODg3NywiaWRwIjoibG9jYWwiLCJVc2VyTmFtZSI6ImR0bXNhZG1pbkBnbWFpbC5jb20iLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiZHRtc2FkbWluNjk5NSIsIlVzZXJJZCI6IjAyMDcyMDIxLTEyMjIyNTMwOC05NzMwMDBkNi04OGFkLTQwNDctYjk4MS0wYzEyMDExMTgzZWQiLCJOYW1lIjoiRFRNUyBBRE1JTiIsIkVtYWlsSWQiOiJkdG1zYWRtaW5AZ21haWwuY29tIiwiVXNlclR5cGUiOiJBZG1pbiIsInJvbGUiOiJBZG1pbiIsIk9yZ2FuaXphdGlvbklkIjoiMTQwODIwMjAtMTEyOTE0MjIyLTc3YzlmNmI3LTYxZjUtNDYzYi1hYjFkLTc3NjFjYmFkMjYyNiIsIkFjY2VwdGVkVGVybXMiOiJGYWxzZSIsIklwQ29uZmlndXJhdGlvbkVuYWJsZWQiOiJGYWxzZSIsImlzU2Fhc0luc3RhbmNlIjoiIiwiYXBpVXJsIjoiIiwiYXBpS2V5IjoiIiwiRGF0ZUZvcm1hdCI6Inl5eXkvTU0vZGQiLCJTdWJzY3JpcHRpb25UeXBlIjoiVXNlciIsIlRpbWVGb3JtYXQiOiJoaDptbSBhIiwiRG9tYWluIjoiaHR0cHM6Ly9kdG1zLmt3aXhlZS5jby5pbiIsIlByb2ZpbGVQaG90byI6IkZpbGVVcGxvYWRzLzE0MDgyMDIwLTExMjkxNDIyMi03N2M5ZjZiNy02MWY1LTQ2M2ItYWIxZC03NzYxY2JhZDI2MjYvVXNlci80NjgxNTE0MzItTWljcm9zb2Z0VGVhbXMtaW1hZ2UucG5nIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjpbIkFkbWluIiwiQ3JlYXRvciIsIlVzZXIiXSwiVGltZVpvbmUiOiJJbmRpYSBTdGFuZGFyZCBUaW1lIiwic2NvcGUiOlsicm9sZXMiXSwiYW1yIjpbImNsaWVudCJdfQ.VMDmgCLmZfI8YDU9EeXXejkDQZDRuQSguN2pJQJ84c0mv6bycd95Z5EloKN8Y_y2sK-F-s6O9rIyLdJDvsfA9WC7aN3kgaNbHjR4_D2tBBt1pbf6l85etgMKcDe8ho-5I4032czdCvRXz3JH47yA9xBJ1QdnZtsaysIkcbzTFa2JJX8TmCRcEs90iJCTAxnCyD30t9qGsFr6dvOgbJXNFr9p00yViwRqXGTcvv2Ohepc81QGCVdmZ5UA_Hc9f-hXBSfuGjTO3CuMZhRGl4vkEP5VLHPEMlqPr2v4GQvzpFlngP_1eQ21W-QHDFOP4S0etqAk7dPgAM4NsX9E_ZU5vw",
+    "HEADERS": {
+        "Authorization": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6Ik9tMXpjSDlFbmUxQ21LSjkwVFU3MFEiLCJ0eXAiOiJhdCtqd3QifQ.eyJuYmYiOjE2ODUzMDg4NzcsImV4cCI6MTY4NTM2ODg3NywiaXNzIjoiaHR0cHM6Ly9kdG1zaWRzLmt3aXhlZS5jby5pbiIsImNsaWVudF9pZCI6ImV4dGVybmFsQ2xpZW50Iiwic3ViIjoiZHRtc2FkbWluQGdtYWlsLmNvbSIsImF1dGhfdGltZSI6MTY4NTMwODg3NywiaWRwIjoibG9jYWwiLCJVc2VyTmFtZSI6ImR0bXNhZG1pbkBnbWFpbC5jb20iLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiZHRtc2FkbWluNjk5NSIsIlVzZXJJZCI6IjAyMDcyMDIxLTEyMjIyNTMwOC05NzMwMDBkNi04OGFkLTQwNDctYjk4MS0wYzEyMDExMTgzZWQiLCJOYW1lIjoiRFRNUyBBRE1JTiIsIkVtYWlsSWQiOiJkdG1zYWRtaW5AZ21haWwuY29tIiwiVXNlclR5cGUiOiJBZG1pbiIsInJvbGUiOiJBZG1pbiIsIk9yZ2FuaXphdGlvbklkIjoiMTQwODIwMjAtMTEyOTE0MjIyLTc3YzlmNmI3LTYxZjUtNDYzYi1hYjFkLTc3NjFjYmFkMjYyNiIsIkFjY2VwdGVkVGVybXMiOiJGYWxzZSIsIklwQ29uZmlndXJhdGlvbkVuYWJsZWQiOiJGYWxzZSIsImlzU2Fhc0luc3RhbmNlIjoiIiwiYXBpVXJsIjoiIiwiYXBpS2V5IjoiIiwiRGF0ZUZvcm1hdCI6Inl5eXkvTU0vZGQiLCJTdWJzY3JpcHRpb25UeXBlIjoiVXNlciIsIlRpbWVGb3JtYXQiOiJoaDptbSBhIiwiRG9tYWluIjoiaHR0cHM6Ly9kdG1zLmt3aXhlZS5jby5pbiIsIlByb2ZpbGVQaG90byI6IkZpbGVVcGxvYWRzLzE0MDgyMDIwLTExMjkxNDIyMi03N2M5ZjZiNy02MWY1LTQ2M2ItYWIxZC03NzYxY2JhZDI2MjYvVXNlci80NjgxNTE0MzItTWljcm9zb2Z0VGVhbXMtaW1hZ2UucG5nIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjpbIkFkbWluIiwiQ3JlYXRvciIsIlVzZXIiXSwiVGltZVpvbmUiOiJJbmRpYSBTdGFuZGFyZCBUaW1lIiwic2NvcGUiOlsicm9sZXMiXSwiYW1yIjpbImNsaWVudCJdfQ.VMDmgCLmZfI8YDU9EeXXejkDQZDRuQSguN2pJQJ84c0mv6bycd95Z5EloKN8Y_y2sK-F-s6O9rIyLdJDvsfA9WC7aN3kgaNbHjR4_D2tBBt1pbf6l85etgMKcDe8ho-5I4032czdCvRXz3JH47yA9xBJ1QdnZtsaysIkcbzTFa2JJX8TmCRcEs90iJCTAxnCyD30t9qGsFr6dvOgbJXNFr9p00yViwRqXGTcvv2Ohepc81QGCVdmZ5UA_Hc9f-hXBSfuGjTO3CuMZhRGl4vkEP5VLHPEMlqPr2v4GQvzpFlngP_1eQ21W-QHDFOP4S0etqAk7dPgAM4NsX9E_ZU5vw",
+        "Content-type": "application/json"
+    },
+    "DATA": {
+        "ElementType": "",
+        "DefaultValue": "Thu Oct 01 2020 00:00:00 GMT+0530 (India Standard Time)",
+        "Type": "valueType",
+        "LabelName": "UpdatedOn",
+        "Condition": "Greater Than",
+        "MappingType": "Static"
+    },
+    "GSFID URL": "https://dtmsapi.kwixee.co.in/api/Report/GetData?id=09112022-195342863-cd239dcc-f64c-4c3f-ae50-710521db1835",
+    "GSFID RESPONSE OBJECT": {
+        "Device ID": "01234567",
+        "GFS Code": "339EE7B198A8089C",
+        "Device Status": "Active",
+        "Created by": "shivaquixy@gmail.com",
+        "Created On": "2021/03/11 12:05 AM",
+        "Updated by": "tptdtms.admin@gmail.com",
+        "Updated On": "2021/04/02 08:06 PM"
+    },
+    "GATE DATA URL": "https://dtmsapi.kwixee.co.in/api/Report/GetData?id=09112022-195343862-b7086592-2af9-4fdc-9362-8bfb85797f97",
+    "GATE DATA RESPONSE OBJECT": {
+        "GateCode": "00010",
+        "GateName": "Gate 001",
+        "TerminalCode": "0001",
+        "Status": "Active",
+        "UpdatedOn": "2023/01/19 12:59 PM",
+        "Gate Preference": "In-Between Gate",
+        "TerminalName": "Terminal 12"
+    },
+    "TERMINAL URL": "https://dtmsapi.kwixee.co.in/api/Report/GetData?id=09112022-195345737-704c7870-4c68-407d-806f-2f6a2907cdc2",
+    "TERMINAL DATA RESPONSE OBJECT": {
+        "TerminalCode": "TER 09",
+        "TerminalName": "TERMINAL 19",
+        "Status": "Active",
+        "UpdatedOn": "2022/08/24 02:41 PM"
+    },
+    "TRUCK DATA URL": "https://dtmsapi.kwixee.co.in/api/Report/GetData?id=09112022-195345404-7300b28b-dfc3-4089-81d3-bb457c2dee10",
+    "TRUCK DATA RESPONSE OBJECT": {
+        "LicenseExpiryDate": "2021/08/28",
+        "Sub License Disc No": "",
+        "Sub TCT Status": "",
+        "Trucking Company Name": "Albert Trans Co",
+        "Parent Trucking Company": "",
+        "TCTNo": "TCT0019",
+        "LicenseDiscNo": "TRK90090",
+        "UpdatedOn": "2021/08/06 11:35 AM",
+        "TCT Status": "Active",
+        "TruckingCompanyId": "2021712TPTTRCLC/2",
+        "IsSubContractor": "True",
+        "VIN": "90990977666666666",
+        "TCT ID": ""
+    },
+    "USER DATA URL": "https://dtmsapi.kwixee.co.in/api/Report/GetData?id=09112022-195346186-46e384fc-e0e2-4010-a2b6-b0f963f3b42b",
+    "USER DATA RESPONSE OBJECT": {
+        "EmployeeId": "PRINCE",
+        "FirstName": "Prince",
+        "LastName": "Mthwane",
+        "Status": "Active",
+        "SecurityPIN": "4515",
+        "UserImage": "[{ \"file\" : { }, \"fileName\" : \"102804796-1.jpeg\", \"Path\" : \"https://dtmsapi.kwixee.co.in/FileUploads/14082020-112914222-77c9f6b7-61f5-463b-ab1d-7761cbad2626/25092020-162141816-cddc00d3-23c2-4c5f-b226-ff03eb282581/102804796-1.jpeg\", \"FileName\" : \"1.jpeg\", \"PathWithoutApi\" : \"FileUploads/14082020-112914222-77c9f6b7-61f5-463b-ab1d-7761cbad2626/25092020-162141816-cddc00d3-23c2-4c5f-b226-ff03eb282581/102804796-1.jpeg\" }, { \"file\" : { }, \"fileName\" : \"775202421-2.jpeg\", \"Path\" : \"https://dtmsapi.kwixee.co.in/FileUploads/14082020-112914222-77c9f6b7-61f5-463b-ab1d-7761cbad2626/25092020-162141816-cddc00d3-23c2-4c5f-b226-ff03eb282581/775202421-2.jpeg\", \"FileName\" : \"2.jpeg\", \"PathWithoutApi\" : \"FileUploads/14082020-112914222-77c9f6b7-61f5-463b-ab1d-7761cbad2626/25092020-162141816-cddc00d3-23c2-4c5f-b226-ff03eb282581/775202421-2.jpeg\" }, { \"file\" : { }, \"fileName\" : \"346551820-3.jpeg\", \"Path\" : \"https://dtmsapi.kwixee.co.in/FileUploads/14082020-112914222-77c9f6b7-61f5-463b-ab1d-7761cbad2626/25092020-162141816-cddc00d3-23c2-4c5f-b226-ff03eb282581/346551820-3.jpeg\", \"FileName\" : \"3.jpeg\", \"PathWithoutApi\" : \"FileUploads/14082020-112914222-77c9f6b7-61f5-463b-ab1d-7761cbad2626/25092020-162141816-cddc00d3-23c2-4c5f-b226-ff03eb282581/346551820-3.jpeg\" }, { \"file\" : { }, \"fileName\" : \"783292238-4.jpeg\", \"Path\" : \"https://dtmsapi.kwixee.co.in/FileUploads/14082020-112914222-77c9f6b7-61f5-463b-ab1d-7761cbad2626/25092020-162141816-cddc00d3-23c2-4c5f-b226-ff03eb282581/783292238-4.jpeg\", \"FileName\" : \"4.jpeg\", \"PathWithoutApi\" : \"FileUploads/14082020-112914222-77c9f6b7-61f5-463b-ab1d-7761cbad2626/25092020-162141816-cddc00d3-23c2-4c5f-b226-ff03eb282581/783292238-4.jpeg\" }, { \"file\" : { }, \"fileName\" : \"116347259-5.jpeg\", \"Path\" : \"https://dtmsapi.kwixee.co.in/FileUploads/14082020-112914222-77c9f6b7-61f5-463b-ab1d-7761cbad2626/25092020-162141816-cddc00d3-23c2-4c5f-b226-ff03eb282581/116347259-5.jpeg\", \"FileName\" : \"5.jpeg\", \"PathWithoutApi\" : \"FileUploads/14082020-112914222-77c9f6b7-61f5-463b-ab1d-7761cbad2626/25092020-162141816-cddc00d3-23c2-4c5f-b226-ff03eb282581/116347259-5.jpeg\" }, { \"file\" : { }, \"fileName\" : \"255343023-6.jpeg\", \"Path\" : \"https://dtmsapi.kwixee.co.in/FileUploads/14082020-112914222-77c9f6b7-61f5-463b-ab1d-7761cbad2626/25092020-162141816-cddc00d3-23c2-4c5f-b226-ff03eb282581/255343023-6.jpeg\", \"FileName\" : \"6.jpeg\", \"PathWithoutApi\" : \"FileUploads/14082020-112914222-77c9f6b7-61f5-463b-ab1d-7761cbad2626/25092020-162141816-cddc00d3-23c2-4c5f-b226-ff03eb282581/255343023-6.jpeg\" }, { \"file\" : { }, \"fileName\" : \"496491469-7.jpeg\", \"Path\" : \"https://dtmsapi.kwixee.co.in/FileUploads/14082020-112914222-77c9f6b7-61f5-463b-ab1d-7761cbad2626/25092020-162141816-cddc00d3-23c2-4c5f-b226-ff03eb282581/496491469-7.jpeg\", \"FileName\" : \"7.jpeg\", \"PathWithoutApi\" : \"FileUploads/14082020-112914222-77c9f6b7-61f5-463b-ab1d-7761cbad2626/25092020-162141816-cddc00d3-23c2-4c5f-b226-ff03eb282581/496491469-7.jpeg\" }, { \"file\" : { }, \"fileName\" : \"968912518-8.jpeg\", \"Path\" : \"https://dtmsapi.kwixee.co.in/FileUploads/14082020-112914222-77c9f6b7-61f5-463b-ab1d-7761cbad2626/25092020-162141816-cddc00d3-23c2-4c5f-b226-ff03eb282581/968912518-8.jpeg\", \"FileName\" : \"8.jpeg\", \"PathWithoutApi\" : \"FileUploads/14082020-112914222-77c9f6b7-61f5-463b-ab1d-7761cbad2626/25092020-162141816-cddc00d3-23c2-4c5f-b226-ff03eb282581/968912518-8.jpeg\" }, { \"file\" : { }, \"fileName\" : \"537438140-9.jpeg\", \"Path\" : \"https://dtmsapi.kwixee.co.in/FileUploads/14082020-112914222-77c9f6b7-61f5-463b-ab1d-7761cbad2626/25092020-162141816-cddc00d3-23c2-4c5f-b226-ff03eb282581/537438140-9.jpeg\", \"FileName\" : \"9.jpeg\", \"PathWithoutApi\" : \"FileUploads/14082020-112914222-77c9f6b7-61f5-463b-ab1d-7761cbad2626/25092020-162141816-cddc00d3-23c2-4c5f-b226-ff03eb282581/537438140-9.jpeg\" }, { \"file\" : { }, \"fileName\" : \"315743773-10.jpeg\", \"Path\" : \"https://dtmsapi.kwixee.co.in/FileUploads/14082020-112914222-77c9f6b7-61f5-463b-ab1d-7761cbad2626/25092020-162141816-cddc00d3-23c2-4c5f-b226-ff03eb282581/315743773-10.jpeg\", \"FileName\" : \"10.jpeg\", \"PathWithoutApi\" : \"FileUploads/14082020-112914222-77c9f6b7-61f5-463b-ab1d-7761cbad2626/25092020-162141816-cddc00d3-23c2-4c5f-b226-ff03eb282581/315743773-10.jpeg\" }, { \"file\" : { }, \"fileName\" : \"669466005-11.jpeg\", \"Path\" : \"https://dtmsapi.kwixee.co.in/FileUploads/14082020-112914222-77c9f6b7-61f5-463b-ab1d-7761cbad2626/25092020-162141816-cddc00d3-23c2-4c5f-b226-ff03eb282581/669466005-11.jpeg\", \"FileName\" : \"11.jpeg\", \"PathWithoutApi\" : \"FileUploads/14082020-112914222-77c9f6b7-61f5-463b-ab1d-7761cbad2626/25092020-162141816-cddc00d3-23c2-4c5f-b226-ff03eb282581/669466005-11.jpeg\" }, { \"file\" : { }, \"fileName\" : \"121440785-12.jpeg\", \"Path\" : \"https://dtmsapi.kwixee.co.in/FileUploads/14082020-112914222-77c9f6b7-61f5-463b-ab1d-7761cbad2626/25092020-162141816-cddc00d3-23c2-4c5f-b226-ff03eb282581/121440785-12.jpeg\", \"FileName\" : \"12.jpeg\", \"PathWithoutApi\" : \"FileUploads/14082020-112914222-77c9f6b7-61f5-463b-ab1d-7761cbad2626/25092020-162141816-cddc00d3-23c2-4c5f-b226-ff03eb282581/121440785-12.jpeg\" }]",
+        "UpdatedOn": "2022/09/13 02:53 PM"
+    },
+    "DRIVER DATA URL": "https://dtmsapi.kwixee.co.in/api/Report/GetData?id=09112022-195343189-cef7a637-747e-4d40-9b6e-89833f61bf51",
+    "DRIVER DATA RESPONSE OBJECT": {
+        "DriverImage": "[{ \"Path\" : \"https://dtmsapi.kwixee.co.in/FileUploads/14082020-112914222-77c9f6b7-61f5-463b-ab1d-7761cbad2626/08092020-094337942-1f0663f1-018b-4726-9e4d-c4a8573b6680/733111019-capture865.jpeg\", \"PathWithoutApi\" : \"FileUploads/14082020-112914222-77c9f6b7-61f5-463b-ab1d-7761cbad2626/08092020-094337942-1f0663f1-018b-4726-9e4d-c4a8573b6680/733111019-capture865.jpeg\", \"FileName\" : \"733111019-capture865.jpeg\" }]",
+        "DriverRegistrationId": "9845345645345",
+        "UpdatedOn": "2021/07/12 07:10 PM"
+    },
+    "TRANSACTION URL": "https://dtmsapi.kwixee.co.in/api/ExternalApi/Save",
+    "TRANSACTION API BODY": {
+        "TerminalID": "string",
+        "GateID": "string",
+        "UserID": "string",
+        "TruckID": "string",
+        "TruckLicenseFound": "string",
+        "TruckLicenseExpired": "string",
+        "DriverID": "string",
+        "DriverLicenseFound": "string",
+        "DriverLicenseExpired": "string",
+        "CommonCompanyID": "string",
+        "FaceMatch": "string",
+        "TransactionStatus": "string",
+        "PINVerification": "string",
+        "StageofFailure": "string",
+        "ReasonofFailure": "string",
+        "TimeStamp": "yyyy/MM/dd hh:mm a",
+        "GatePreference": "string",
+        "_AppId": "30092021-130840431-1beecb8c-75fd-47f5-8296-e24943c37115",
+        "_UserEmailId": "dtmsadmin@gmail.com"
+    },
+    "TRANSACTION DATA RESPONSE OBJECT": {
+        "Success": true,
+        "StatusCode": 0,
+        "SuccessMessage": "",
+        "ErrorMessage": "",
+        "Data": "",
+        "Object": []
+    }
+}
