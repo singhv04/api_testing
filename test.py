@@ -10,8 +10,8 @@ import requests
 ssl._create_default_https_context = ssl._create_unverified_context
 
 
-auth_address = "https://dtmsintegrations.kwixee.co.in/api/Integration/GetToken"
-base_address = "https://dtmsapi.kwixee.co.in/"
+auth_address = "http://10.67.178.71:50003/api/Integration/GetToken"
+base_address = "http://10.67.178.71:50002/"
 
 
 def get_authtoken():
